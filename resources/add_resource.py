@@ -9,7 +9,7 @@
 
 import falcon
 import json
-from constants import Constants
+from constants.constants import Constants
 
 
 class AddResource(object):

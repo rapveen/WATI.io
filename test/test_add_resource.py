@@ -3,7 +3,8 @@ import unittest
 from app import app
 from falcon import testing
 from route_description import RouteName
-from constants import Constants
+from constants.constants import Constants
+
 
 class TestAddResource(unittest.TestCase):
     def setUp(self):
