@@ -1,0 +1,3 @@
+class RouteName:
+    ADD = "/add"
+
