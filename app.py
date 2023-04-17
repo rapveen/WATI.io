@@ -1,8 +1,8 @@
 import falcon
 from falcon_cors import CORS
 from wsgiref.simple_server import make_server
-from add_resource import AddResource
-from index_resource import IndexResource
+from resources.add_resource import AddResource
+from resources.index_resource import IndexResource
 from route_description import RouteName
 
 
